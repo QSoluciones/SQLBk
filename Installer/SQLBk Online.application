@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <assemblyIdentity name="SQLBk Online.application" version="1.0.0.91" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <assemblyIdentity name="SQLBk Online.application" version="1.0.0.94" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="SQLBk Online" asmv2:product="SQLBk Online" asmv2:supportUrl="http://sqlbk.com/" xmlns="urn:schemas-microsoft-com:asm.v1" />
-  <deployment install="true" co.v1:createDesktopShortcut="true">
+  <deployment install="true" mapFileExtensions="true" co.v1:createDesktopShortcut="true">
     <subscription>
       <update>
         <beforeApplicationStartup />
@@ -11,14 +11,14 @@
     <deploymentProvider codebase="https://qsoluciones.github.io/SQLBk/Installer/SQLBk%20Online.application" />
   </deployment>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\SQLBk Online_1_0_0_91\SQLBk Online.exe.manifest" size="8776">
-      <assemblyIdentity name="SQLBk Online.exe" version="1.0.0.91" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+    <dependentAssembly dependencyType="install" codebase="Application Files\SQLBk Online_1_0_0_94\SQLBk Online.exe.manifest" size="8776">
+      <assemblyIdentity name="SQLBk Online.exe" version="1.0.0.94" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>wgLgian1tYSp10lw2jmvKKh7J4M=</dsig:DigestValue>
+        <dsig:DigestValue>OUgw/QplVhfMANAxozQa9tNW0ng=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
