@@ -127,13 +127,13 @@
       <dsig:DigestValue>Zd7Lg2QesGlOUrQmW7dLqCUjOCs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SQLBk Online.exe.config" size="8834">
+  <file name="SQLBk Online.exe.config" size="8835">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>+fX5B3MBM0MyxqbDOajeN5CcCXo=</dsig:DigestValue>
+      <dsig:DigestValue>VQTaKsmG5/DTC6SToVC8tYpPzCw=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

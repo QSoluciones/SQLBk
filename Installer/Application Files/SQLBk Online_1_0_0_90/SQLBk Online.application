@@ -8,7 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="http://servidor:81/src/SQLBk%20Online.application" />
+    <deploymentProvider codebase="https://qsoluciones.github.io/SQLBk/Installer/SQLBk%20Online.application" />
   </deployment>
   <dependency>
     <dependentAssembly dependencyType="install" codebase="Application Files\SQLBk Online_1_0_0_90\SQLBk Online.exe.manifest" size="8776">
@@ -18,7 +18,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ljc9FPw1QcNtr5T4BFkBJfa7gLo=</dsig:DigestValue>
+        <dsig:DigestValue>jyZNJrcGmtZ4NqVsVj1Jm88GwsE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
