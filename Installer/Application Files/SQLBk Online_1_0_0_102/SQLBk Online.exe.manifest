@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SQLBk Online.exe" version="1.0.0.102" publicKeyToken="ac12fe7f5859d1db" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="cilindro.ico" asmv2:publisher="SQLBk Online" asmv2:product="SQLBk Online" asmv2:supportUrl="http://sqlbk.com/" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SQLBk Online" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="SQLBk Online.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site" Unrestricted="true" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opciones del manifiesto de Control de cuentas de usuario
+             Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+             nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            La especificación del nodo requestedExecutionLevel deshabilitará la virtualización de archivos y del Registro.
+            Si desea usar la virtualización de archivos y del Registro para la compatibilidad 
+            con versiones anteriores, elimine el nodo requestedExecutionLevel.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.Entity" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChilkatDotNet2.dll" size="5869568">
+      <assemblyIdentity name="ChilkatDotNet2" version="9.1.0.0" publicKeyToken="EB5FC1FC52EF09BD" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>L9OPMooV4EIf+Dr9+Gh+AnBuhq4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SQLBk Online.exe" size="340296">
+      <assemblyIdentity name="SQLBk Online" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+byToyQ/V6IcpmEpVa9L+bH/JuI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en\SQLBk Online.resources.dll" size="6656">
+      <assemblyIdentity name="SQLBk Online.resources" version="1.0.0.0" language="en" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Ka28BT54hmBDZl7BvPMl+8p2V6w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es\SQLBk Online.resources.dll" size="7168">
+      <assemblyIdentity name="SQLBk Online.resources" version="1.0.0.0" language="es" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>6jcAhxKc33yEl2vDV+P0xpDUHHs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Threading.Tasks.NET35.dll" size="192000">
+      <assemblyIdentity name="System.Threading.Tasks.NET35" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>fLOjKHJrn0mksb68eC6+1JcO/+o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="cilindro.ico" size="48754">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Zd7Lg2QesGlOUrQmW7dLqCUjOCs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SQLBk Online.exe.config" size="9193">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Mr0CgsU5CUmOoo9+UGyyL+dYdIQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Lista de todas las versiones de Windows con las que esta aplicación está diseñada para funcionar. 
+      Windows seleccionará automáticamente el entorno de mayor compatibilidad.-->
+      <!-- Si la aplicación está diseñada para funcionar con Windows Vista, quite los comentarios del siguiente nodo supportedOS-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- Si la aplicación está diseñada para funcionar con Windows 7, quite los comentarios del siguiente nodo supportedOS-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- Si la aplicación está diseñada para funcionar con Windows 8, quite los comentarios del siguiente nodo supportedOS-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Quantum Soluciones" issuerKeyHash="358b25462703819c315e6582b46d6f284f83712f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>CE8a1mN4DVvBUHcIJcnaP3owSPQ=</DigestValue></Reference></SignedInfo><SignatureValue>RjcJRuhMYRnXcNeRol+2nukJz3p17JRf2H1xMU6N+tWTx+aBLQTjTa3lOKO7cB3b7DF+zS3HzaFZCQmWFzjd3rMny0bK9gQQMPbEUKrKR9WB824oW3qe/5CAAMSCWb2I3DnZHNwBw/m8sikrNg1Y9wjKpLzgGaR8K3BswHaoAotmLTjPvkYNvUIc2EJ/LwtQQq+hYgNc2Na2xPUN6KMl8eMK3gu6j7rDBC1kdu8GeY9KI7u4ChWeojKuQGBW9RBP5PNg7SAISkRpYiv8GSRNX3XV8vfmLCNRdWmjpqIXtM0lBk6iMkswkgumezu0jmQ0kzO9WbvqD+bipYoxAWIcHQ==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zORVsFp0+BOirz43QBLs2g5QAbjpgg7v1H3onXrK+FovCC4maYfzNx8ksOha1iRJAyG1AwpDJzSzGjeV7/nbQy3HoBjJD58EobKo5zMvD9ELcT6zIiSoEf0iYQ4Olo64xI8b+Q1XrXUIgyTWJ25EG27zp8c5WvvAbSWp0O3Emod7Nc5KdopXaAOAVRpZ6XJrsSuomg1uEy549tamereL5f2EKE3SL8/3NYV2w1o9E9KES5AMPsfete83Rpcp0KJf4QexpBnIOEWpBLrPhpXbU6FYSk8RMoWr3iMUefTKrF9IVrgx+yYwmBl8EmQORiKWdcNzdjnRg+h2KadFMNWOWQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f448307a3fdac925087750c15b0d7863d61a4f08" Description="" Url=""><as:assemblyIdentity name="SQLBk Online.exe" version="1.0.0.102" publicKeyToken="ac12fe7f5859d1db" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Quantum Soluciones</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>1xgLdx0W3fZUtP7TVZYxBKq5OkE=</DigestValue></Reference></SignedInfo><SignatureValue>s6ckO+dcoH8IJACBk45Mo/eY7v92xlZeDPNgEaaaf5kEQ81T3UzNyzybQo7LwqK8LvNcmXi2dBPG/QjZdprk62hhgcIeXHVaDJycXIdtIsJZsxy9J2RzqM18gMuFPsNSFi+3MK1bIeugLfktAzfXibx6hpvb0T8LftxQNTq0y5YCrYmj392IB+4F0iFWjbQUFDEjkOsgerHUv9X1ru3kxJdaKf+WBO6aD2J/bCs9HX+W7tzAo7yn9WhLt8mnDpktEDN/q9Kdu2Rgxckid2Tcut4eqcSLi0RIPDjHxHfnUW1YcHFx71BhAkN09CAUml5ia8fXzLB3OtHNIgbhEmeY/w==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zORVsFp0+BOirz43QBLs2g5QAbjpgg7v1H3onXrK+FovCC4maYfzNx8ksOha1iRJAyG1AwpDJzSzGjeV7/nbQy3HoBjJD58EobKo5zMvD9ELcT6zIiSoEf0iYQ4Olo64xI8b+Q1XrXUIgyTWJ25EG27zp8c5WvvAbSWp0O3Emod7Nc5KdopXaAOAVRpZ6XJrsSuomg1uEy549tamereL5f2EKE3SL8/3NYV2w1o9E9KES5AMPsfete83Rpcp0KJf4QexpBnIOEWpBLrPhpXbU6FYSk8RMoWr3iMUefTKrF9IVrgx+yYwmBl8EmQORiKWdcNzdjnRg+h2KadFMNWOWQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDEDCCAfygAwIBAgIQ/ZX62iNtcb9DcMB3z07LMjAJBgUrDgMCHQUAMB0xGzAZBgNVBAMTElF1YW50dW0gU29sdWNpb25lczAgFw0yMDAxMDEwNjAwMDBaGA8yMTAwMTIwMTA2MDAwMFowHTEbMBkGA1UEAxMSUXVhbnR1bSBTb2x1Y2lvbmVzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzORVsFp0+BOirz43QBLs2g5QAbjpgg7v1H3onXrK+FovCC4maYfzNx8ksOha1iRJAyG1AwpDJzSzGjeV7/nbQy3HoBjJD58EobKo5zMvD9ELcT6zIiSoEf0iYQ4Olo64xI8b+Q1XrXUIgyTWJ25EG27zp8c5WvvAbSWp0O3Emod7Nc5KdopXaAOAVRpZ6XJrsSuomg1uEy549tamereL5f2EKE3SL8/3NYV2w1o9E9KES5AMPsfete83Rpcp0KJf4QexpBnIOEWpBLrPhpXbU6FYSk8RMoWr3iMUefTKrF9IVrgx+yYwmBl8EmQORiKWdcNzdjnRg+h2KadFMNWOWQIDAQABo1IwUDBOBgNVHQEERzBFgBASpQlerY5i3HpOj8D+dYkgoR8wHTEbMBkGA1UEAxMSUXVhbnR1bSBTb2x1Y2lvbmVzghD9lfraI21xv0NwwHfPTssyMAkGBSsOAwIdBQADggEBABSN3Emxj1dT1qkH8Mm/S3v9E8UJc1guuCybTeLqpHn0pC0kiJ4+uCR9kmu/tOD4uDi5Ek48OK363G4U9EE/agoV8UQiUMKtxvDa3llKLp5s8u/pxQECDWI1cJOI5zs/i/U8IvIZiGD0JI9AZnk0OxaKkMEChA3rppNEXViTcouQzRQ0aJkOLk9MGyCnqmDej3GZZjkPehZ9XVRVUSW1wQ6D3vxS4eWCx5feeKB78ElBRcEJjot13fuXpMjCtXRDgbXmFnIqhy6F85VClmsy3w522U7tWP1/p2CSF65DY+w7K6+RTcDRh3huIBxgqEV5TTuRaV3JZzpXq2TVYfuZ81g=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
